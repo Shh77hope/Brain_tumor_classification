@@ -30,8 +30,12 @@ Dataset: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-datase
         no_tumor/
     
 2. Running the Code
+ 
 SVM model:
+
 python main.py --model svm
+
 ResNet50 model:
+
 python main.py --model resnet --gradcam
 
