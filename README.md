@@ -1,23 +1,22 @@
-# Brain Tumor MRI Classification
+# 🧠 Brain Tumor MRI Classification
 
-## Overview
-This project trains and evaluates machine learning and deep learning models to classify brain MRI scans into four categories:
+## 📌 Overview
+This project leverages both traditional machine learning and deep learning techniques to classify brain MRI scans into four tumor categories:
+
 - Glioma
 - Meningioma
 - Pituitary Tumor
 - No Tumor
 
-Supported models:
-- **SVM** (Support Vector Machine)
-- **ResNet50** (Convolutional Neural Network with transfer learning)
-
-Grad-CAM visualizations can also be generated for ResNet50 models.
+## ✅ Models Implemented:
+- **Support Vector Machine (SVM)** with PCA for dimensionality reduction.
+- **ResNet50** with transfer learning, fine-tuning, and Grad-CAM interpretability.
 
 ---
 
-## Setup
+## 📁 Dataset
 Dataset: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
-1. The Dataset structure should like this:
+Organize the dataset as follows:
 
 Brain_tumor_dataset/
 
@@ -41,13 +40,30 @@ Brain_tumor_dataset/
         
         no_tumor/
     
-3. Running the Code
+## Run the Code
  
-SVM model:
+To train and evaluate the SVM model:
 
 python main.py --model svm
 
-ResNet50 model:
+To train and evaluate the ResNet50 model with Grad-CAM:
 
 python main.py --model resnet --gradcam
+
+
+## 📊 Performance
+
+- ResNet50 Accuracy: ~98%
+
+- SVM Accuracy: ~84% (with PCA)
+
+Model performance is visualized with:
+
+- Training & validation accuracy/loss plots
+
+- Confusion matrix
+
+- Grad-CAM heatmaps (for deep learning model interpretability)
+
+
 
