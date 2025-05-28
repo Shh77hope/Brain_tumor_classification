@@ -17,19 +17,31 @@ Grad-CAM visualizations can also be generated for ResNet50 models.
 
 ## Setup
 Dataset: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
-1. The Dataset structure should like this: Brain_tumor_dataset/
+1. The Dataset structure should like this:
+
+Brain_tumor_dataset/
+
     training/
+    
         glioma/
+        
         meningioma/
+        
         pituitary/
+        
         no_tumor/
+        
     testing/
+    
         glioma/
+        
         meningioma/
+        
         pituitary/
+        
         no_tumor/
     
-2. Running the Code
+3. Running the Code
  
 SVM model:
 
