@@ -1,7 +1,3 @@
-# Team-Databreak
-
-Data Science II group project
-
 # Brain Tumor MRI Classification
 
 ## Overview
@@ -20,7 +16,7 @@ Grad-CAM visualizations can also be generated for ResNet50 models.
 ---
 
 ## Setup
-
+Dataset: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 1. The Dataset structure should like this: Brain_tumor_dataset/
     training/
         glioma/
